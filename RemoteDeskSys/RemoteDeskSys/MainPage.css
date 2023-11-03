@@ -1,0 +1,56 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding:1% 5%;
+    
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+.left {
+   font-size:xx-large;
+   border:dashed;
+}
+
+.right {
+    background-color:white;
+   font-size:xx-large;
+    width :200px;
+    height:auto;
+}
+
+.Illustrate {
+   background-color:white;
+    
+}
+
+.Record {
+    background-color:orange;
+}
+
+
+
+/* Media Query for Responsive Layout */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 1;
+        margin: 0;
+    }
+
+
+    
+}
